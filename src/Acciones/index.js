@@ -13,7 +13,7 @@ export const Ejecutar = () => ({
 //disparos
 
 export const TIRO='TIRO'
-export const Tiro = (mousePosition) => ({
+export const tiro = (mousePosition) => ({
   type: TIRO,
   mousePosition,
 });

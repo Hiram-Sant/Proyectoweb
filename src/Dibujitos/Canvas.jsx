@@ -25,7 +25,7 @@ const Canvas = (props) => {
       </defs>
       <Sky />
       <Tierra />
-      {props.CaState.Bala.map(Bala => (
+      {props.CaState.Balas.map(Bala => (
         <Bala
           key={Bala.id}
           position={Bala.position}

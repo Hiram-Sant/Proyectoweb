@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import { gameWidth } from '../Utileria/Constantes';
 //Esta chingadera no se ve , no se que anda mal
 const Ejecutar = (props) => {
@@ -33,14 +33,12 @@ const Ejecutar = (props) => {
     <g filter="url(#shadow)">
       <rect {...button} />
       <text {...text}>
-        Click para empezar!
+        Click para empezar el laboratorio!
       </text>
     </g>
   );
 };
 
-Ejecutar.propTypes = {
-  onClick: PropTypes.func.isRequired,
-};
+
 
 export default Ejecutar;

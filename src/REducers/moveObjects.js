@@ -8,6 +8,7 @@ function moveObjects(state, action) {
   if (!state.CaState.started) return state;
 
   let Balas = moveBalas(state.CaState.Balas);
+
   if (!action.mousePosition) return state;
   const { x, y } = action.mousePosition;
   const angle = calculateAngle(0, 0, x, y);

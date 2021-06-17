@@ -10,7 +10,6 @@ function tiro(state, action) {
   const { x, y } = action.mousePosition;
 
   const angle = calculateAngle(0, 0, x, y);
-
   const id = (new Date()).getTime();
   const Bala = {
     position: { x: 0, y: 0 },
