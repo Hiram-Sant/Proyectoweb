@@ -1,6 +1,6 @@
 import{connect}from 'react-redux';
 import App from '../App'
-import { moveObjects, Ejecutar,tiro } from '../Acciones/index';
+import { moveObjects, Ejecutar/* tiro  */} from '../Acciones/index';
 
 //import { moveObjects } from '../Acciones/index';
 //USA LA ACCION Y EL RECDUCT
@@ -16,9 +16,9 @@ const mapDispatchToProps = dispatch => ({
   Ejecutar:()=>{
     dispatch(Ejecutar());
   },
-  tiro: (mousePosition) => {
+ /*  tiro: (mousePosition) => {
     dispatch(tiro(mousePosition))
-  },
+  }, */
 });
 
 

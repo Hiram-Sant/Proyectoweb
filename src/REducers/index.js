@@ -21,8 +21,8 @@ function reducer(state = initialState, action) {
       return moveObjects(state, action);
       case START_CA:
         return Ejecutar(state, initialCaState);
-        case TIRO:
-          return tiro(state,action)
+       /*  case TIRO:
+          return tiro(state,action) */
       default:
         return state;
   }

@@ -12,8 +12,8 @@ export const Ejecutar = () => ({
 });
 //disparos
 
-export const TIRO='TIRO'
+/* export const TIRO='TIRO'
 export const tiro = (mousePosition) => ({
   type: TIRO,
   mousePosition,
-});
+}); */

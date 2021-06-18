@@ -6,11 +6,11 @@ import {getCanvasPosition} from './Utileria/Formulas';
 
 class App extends Component {
 
-  constructor(props) {
+  /* constructor(props) {
     super(props);
     this.tiro = this.tiro.bind(this);
     
-  }
+  } */
 
   componentDidMount() {
     const self = this;
@@ -28,9 +28,9 @@ class App extends Component {
   trackMouse(event) {
     this.canvasMousePosition = getCanvasPosition(event);
   } 
-  tiro() {
+  /* tiro() {
     this.props.tiro(this.canvasMousePosition);
-  }
+  } */
 
   render() {
     return (
@@ -39,7 +39,7 @@ class App extends Component {
         CaState={this.props.CaState}
         Ejecutar={this.props.Ejecutar}
         trackMouse={event => (this.trackMouse(event))}
-        tiro={this.tiro}
+        /* tiro={this.tiro} */
       />
     );
   }

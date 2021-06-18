@@ -25,12 +25,12 @@ const Canvas = (props) => {
       </defs>
       <Sky />
       <Tierra />
-      {props.CaState.Balas.map(Bala => (
+      {/* {props.CaState.Balas.map(Bala => (
         <Bala
           key={Bala.id}
           position={Bala.position}
         />
-      ))}
+      ))} */}
       <Cañondelcañon cx={-775} cy={-15}  rotation={props.angle}/>
       <Basecañon cx={-800} cy={0} />
       
